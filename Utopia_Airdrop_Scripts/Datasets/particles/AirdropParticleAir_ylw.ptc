@@ -1,0 +1,267 @@
+EffectDef {
+ Emitors {
+  EmitorDef sparks {
+   ConeAngle 360 0 75
+   MaxNum 30
+   BirthRate 10
+   LocalTransform 1
+   Material "{009C2EBAACD2D72A}graphics/particles/materials/fire/sparks1.emat"
+   SizeMultiplier 0.2
+   StretchMultiplier 1.04
+   GravityMultiply 0
+   GravityMultiplyRND 2
+   LifeTime 0.2
+   LifeTimeRND 0.1
+   Color {
+    0 0.7838 0.7765 0.7765 1 1 0.5255 0.2863
+   }
+   Size {
+    0 0.54088 1 0
+   }
+  }
+  EmitorDef sparks {
+   ConeAngle 360 0 35
+   MaxNum 30
+   BirthRate 15
+   LocalTransform 1
+   Material "{009C2EBAACD2D72A}graphics/particles/materials/fire/sparks1.emat"
+   SizeMultiplier 0.2
+   StretchMultiplier 1.1
+   GravityMultiply 0
+   GravityMultiplyRND 1
+   LifeTime 0.2
+   LifeTimeRND 0.1
+   Color {
+    0 1 0.4865 0.3451 1 1 0.8314 0.4941
+   }
+   Alpha {
+    0 1 0.61395 0.7673 1 0
+   }
+   Size {
+    0 0.28302 1 0.16352
+   }
+   EffectTime 3
+  }
+  EmitorDef sparks_dots {
+   ShapeSize 0.2 0 0.2
+   ConeAngle 360 0 75
+   MaxNum 30
+   BirthRate 0.1
+   BirthRateRND 0.5
+   BirthRateVel 10
+   Offset 0 0.2 0
+   LocalTransform 0
+   Material "{009C2EBAACD2D72A}graphics/particles/materials/fire/sparks1.emat"
+   SizeMultiplier 0.03
+   SizeRND 0.01
+   StretchMultiplier 1
+   VelocityRND 1
+   GravityMultiply 0.5
+   GravityMultiplyRND 1
+   LifeTime 0.5
+   LifeTimeRND 0.3
+   Color {
+    0 1 1 0.498 0.3369 1 0.4431 0.0431 1 0.1412 0.0235 0.0235
+   }
+   Size {
+    0 0 0.05 1 1 0
+   }
+   EffectTime 3
+   Repeat 1
+  }
+  EmitorDef sparks {
+   ShapeType Box
+   ShapeSize 0.02 0 0.02
+   ConeAngle 360 0 60
+   MaxNum 30
+   BirthRate 100
+   Offset 0 0 0
+   LocalTransform 1
+   Material "{009C2EBAACD2D72A}graphics/particles/materials/fire/sparks1.emat"
+   SizeMultiplier 0.2
+   StretchMultiplier 1.05
+   Velocity 1.5
+   GravityMultiply 0
+   GravityMultiplyRND 0
+   LifeTime 0.1
+   LifeTimeRND 0.3
+   Color {
+    0 1 1 1 0.1414 1 0.8941 0.6196 0.612 1 0.7532 0 1 0.9684 0.6709 0
+   }
+   Alpha {
+    0 0 0.21415 0.71069 1 0
+   }
+   Size {
+    0 0.37736 0.15128 0.91195 1 0.37736
+   }
+   EffectTime 3
+  }
+  EmitorDef long_smoke {
+   ShapeType Point
+   ShapeSize 0.3 0 0.3
+   ConeAngle 360 0 30
+   MaxNum 300
+   BirthRate 2
+   BirthRateRND 0
+   Offset 0 0 0
+   Angles 0 0 0
+   Material "{008E25684854DAB8}graphics/particles/materials/smoke/steam_small_cook_01.emat"
+   SizeMultiplier 20
+   SizeRND 0
+   RandomRotDir 1
+   RotMultiplier 70
+   VelAngle 0
+   RandomAngle 1
+   Velocity 0.5
+   VelocityRND 0
+   AirResistance 0
+   GravityMultiply 0
+   Restitution 0
+   Wind 0
+   AnimOnce 0
+   AnimFPS 30
+   LifetimeByAnim 0
+   RandomFrame 1
+   LifeTime 150
+   LifeTimeRND 10
+   Color {
+    0 0.6329 0.5 0 0.5477 0.6266 0.4367 0.0886 1 0.8101 0.4557 0.0316
+   }
+   Alpha {
+    0 0 0.00929 0 0.08408 0.75949 0.6006 0.25316 1 0
+   }
+   RotationSpeed {
+    0 0.71519 0.07508 0.32278 0.18018 0.1962 1 0
+   }
+   Size {
+    0 0.11538 1 1
+   }
+   EffectTime 0
+  }
+  EmitorDef long_smoke_rnd_size {
+   ShapeType Point
+   ShapeSize 0.3 0 0.3
+   ConeAngle 360 0 45
+   MaxNum 300
+   BirthRate 10
+   BirthRateRND 0
+   Offset 0 0 0
+   Angles 0 0 0
+   Material "{008E25684854DAB8}graphics/particles/materials/smoke/steam_small_cook_01.emat"
+   SizeMultiplier 15
+   SizeRND 5
+   RandomRotDir 1
+   RotMultiplier 90
+   VelAngle 0
+   RandomAngle 1
+   Velocity 0.3
+   VelocityRND 0.2
+   AirResistance 0
+   AirResistanceRND 0
+   Wind 0
+   AnimOnce 0
+   AnimFPS 30
+   LifetimeByAnim 0
+   RandomFrame 1
+   LifeTime 150
+   LifeTimeRND 10
+   Color {
+    0 0.7405 0.5759 0.0316 0.5754 0.4241 0.2468 0.0949 1 0.2785 0.1646 0.057
+   }
+   Alpha {
+    0 0 0.19219 0.56329 0.47447 0.48734 0.77477 0.25316 1 0
+   }
+   RotationSpeed {
+    0 0.4557 0.08408 0.43038 0.18018 0.16456 1 0
+   }
+   Size {
+    0 0 0.44571 0.63462 1 1
+   }
+   EffectTime 0
+  }
+  EmitorDef short_smoke {
+   ShapeType Point
+   ShapeSize 0 0 0
+   ConeAngle 360 0 20
+   MaxNum 600
+   BirthRate 50
+   BirthRateRND 0
+   BirthRateVel 2
+   Angles 0 0 0
+   Material "{008E25684854DAB8}graphics/particles/materials/smoke/steam_small_cook_01.emat"
+   SizeMultiplier 0.6
+   RandomRotDir 1
+   RotMultiplier 45
+   StretchMultiplier 1
+   VelAngle 0
+   RandomAngle 1
+   Velocity 2
+   VelocityRND 0
+   AirResistance 0.05
+   AirResistanceRND 0
+   Spring 0
+   Wind 0
+   AnimOnce 0
+   AnimFPS 30
+   LifetimeByAnim 0
+   RandomFrame 1
+   LifeTime 2
+   LifeTimeRND 1
+   Color {
+    0 0.6709 0.4557 0.0745 0.5538 0.5316 0.3418 0.0706 1 1 0.6329 0
+   }
+   Alpha {
+    0 0.87975 0.37838 0.58861 0.66071 0.19872 1 0
+   }
+   RotationSpeed {
+    0 0 1 1
+   }
+   Size {
+    0 0 0.02643 0.52564 0.06 0.80128 0.13714 1 1 1
+   }
+   EffectTime 0
+   Repeat 1
+  }
+  EmitorDef short_smoke_cloned {
+   ShapeType Point
+   ShapeSize 0 0 0
+   ConeAngle 360 0 50
+   MaxNum 600
+   BirthRate 10
+   BirthRateRND 0
+   BirthRateVel 2
+   Angles 0 0 0
+   Material "{008E25684854DAB8}graphics/particles/materials/smoke/steam_small_cook_01.emat"
+   SizeMultiplier 1
+   RandomRotDir 1
+   RotMultiplier 45
+   VelAngle 0
+   RandomAngle 1
+   Velocity 1
+   VelocityRND 0
+   AirResistance 0.1
+   AirResistanceRND 0
+   Wind 0
+   AnimOnce 0
+   AnimFPS 30
+   LifetimeByAnim 0
+   RandomFrame 1
+   LifeTime 1
+   LifeTimeRND 1
+   Color {
+    0 0.7025 0.6203 0 0.5138 0.5 0.2722 0 1 0.1899 0.1013 0
+   }
+   Alpha {
+    0 0.88608 0.27027 0.84177 1 0
+   }
+   RotationSpeed {
+    0 0 1 1
+   }
+   Size {
+    0 0.13462 1 1
+   }
+   EffectTime 0
+   Repeat 1
+  }
+ }
+}

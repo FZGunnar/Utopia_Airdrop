@@ -1,0 +1,1 @@
+class Airdrop_Flaregun_Base extends Flaregun{};

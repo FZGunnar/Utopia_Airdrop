@@ -1,0 +1,2 @@
+class Utopia_Military_Airdrop_Flat extends UtopiaGroundContainer{};
+class Utopia_Military_Airdrop_Medium extends UtopiaGroundContainer{};

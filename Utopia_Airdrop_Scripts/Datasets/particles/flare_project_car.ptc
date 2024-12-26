@@ -1,0 +1,227 @@
+EffectDef {
+ Emitors {
+  EmitorDef lensflare {
+   ConeAngle 360 0 20
+   MaxNum 1
+   BirthRate 1
+   Offset 0 0 0
+   LocalTransform 1
+   Material "{57B8EA908CA750E1}graphics/particles/materials/glow/flare_light.emat"
+   SizeMultiplier 35
+   SizeRND 5
+   RandomRotDir 1
+   RotMultiplier 8
+   StretchMultiplier 1
+   RandomAngle 1
+   Velocity 0
+   VelocityRND 0
+   AirResistance 0
+   GravityMultiply 0
+   Wind 0
+   RandomFrame 0
+   LifeTime 120
+   Color {
+    0 0 0.0442 0.3702 0.3138 0 0.0331 0.3978 0.5172 0 0.011 0.3757 0.8448 0 0 0.3204 1 0.1271 0 0.2707
+   }
+   Alpha {
+    0 0 0.17548 0.31492 0.91827 0.07735 1 0
+   }
+   Size {
+    0 0 0.21485 0.91713 0.58929 0.87845 0.92573 0.47514 1 0
+   }
+   EffectTime 120
+   Repeat 0
+  }
+  EmitorDef main_smoke {
+   ConeAngle 360 0 25
+   MaxNum 600
+   BirthRate 9
+   BirthRateRND 3
+   BirthRateVel 2
+   Offset 0 0.05 0
+   Material "{06C185200574A055}graphics/particles/materials/smoke/smoke_cloud_01_b_trans_roadflare_01.emat"
+   SizeMultiplier 12
+   SizeRND 3
+   RandomRotDir 1
+   RotMultiplier 60
+   VelAngle 0
+   RandomAngle 1
+   BillboardingType Full
+   Velocity 2
+   VelocityRND 1
+   VelAffect 0
+   AirResistance 0.1
+   AirResistanceRND 0.05
+   GravityMultiply -0.004
+   GravityMultiplyRND 0.001
+   Wind 1
+   RandomFrame 1
+   LifeTime 12
+   LifeTimeRND 2
+   Color {
+    0 0 0.0497 0.3867 0.2793 0 0.0387 0.3315 0.6345 0.0221 0.0276 0.2762 1 0.0718 0 0.2486
+   }
+   Alpha {
+    0 0 0.39222 0.14917 0.83008 0.0884 1 0
+   }
+   RotationSpeed {
+    0 0.27072 0.6497 0.59116 1 0.88398
+   }
+   Size {
+    0 0.0663 0.73567 0.30387 1 1
+   }
+   EffectTime 12
+  }
+  EmitorDef main_smoke_2 {
+   ConeAngle 360 0 35
+   MaxNum 600
+   BirthRate 4
+   BirthRateRND 6
+   BirthRateVel 2.5
+   Offset 0 0.05 0
+   Material "{17F1336FEF157B35}graphics/particles/materials/smoke/smoke_dust_01_em_spooky.emat"
+   SizeMultiplier 7
+   SizeRND 14
+   RandomRotDir 1
+   RotMultiplier 40
+   VelAngle 0
+   RandomAngle 1
+   BillboardingType Full
+   Velocity 2
+   VelocityRND 1.5
+   VelAffect 0
+   AirResistance 0.1
+   AirResistanceRND 0.05
+   GravityMultiply -0.004
+   GravityMultiplyRND 0.001
+   Wind 1
+   RandomFrame 1
+   LifeTime 14
+   LifeTimeRND 6
+   Color {
+    0 0 0.0442 0.2762 0.3 0 0.0331 0.2652 0.7552 0.011 0 0.2044 1 0.0497 0 0.1823
+   }
+   Alpha {
+    0 0 0.41834 0.18785 0.82635 0.10497 1 0
+   }
+   RotationSpeed {
+    0 0 0.67908 0.39227 1 1
+   }
+   Size {
+    0 0.23204 0.44699 0.78453 1 1
+   }
+   EffectTime 20
+  }
+  EmitorDef main_smoke_bright {
+   ConeAngle 360 0 20
+   MaxNum 200
+   BirthRate 2
+   BirthRateRND 12
+   BirthRateVel 1
+   Offset 0 -0.41265 0
+   Material "{5829AC63BAF92E5A}graphics/particles/materials/smoke/smoke_cloud_01_b_trans_roadflare_02.emat"
+   ScaleX 1
+   ScaleY 1
+   SizeMultiplier 3
+   SizeRND 2
+   RandomRotDir 1
+   RotMultiplier 60
+   VelAngle 1
+   RandomAngle 0
+   Velocity 2
+   VelocityRND 0.4
+   VelAffect 0.001
+   AirResistance 0.1
+   AirResistanceRND 0.05
+   GravityMultiply 0
+   GravityMultiplyRND 0
+   Wind 1
+   RandomFrame 1
+   LifeTime 1
+   LifeTimeRND 2
+   Color {
+    0 0 0.1989 1 0.3552 0 0.0221 0.3812 0.7857 0.0608 0 0.3481 1 0.2265 0 0.6409
+   }
+   Alpha {
+    0 0.0221 0.14183 0.07735 0.41497 0.13812 0.68367 0.0663 0.88073 0 1 0
+   }
+   RotationSpeed {
+    0 0 0.54087 0.1989 1 0.67403
+   }
+   Size {
+    0 0.14557 0.67067 0.38122 1 0.74033
+   }
+   EffectTime 3
+  }
+  EmitorDef sparks {
+   ConeAngle 360 0 75
+   MaxNum 100
+   BirthRate 25
+   LocalTransform 1
+   Material "{FF2A8A73FB791A62}graphics/particles/materials/fire/sparks_05.emat"
+   SizeMultiplier 1
+   SizeRND 2
+   RandomRotDir 1
+   RotMultiplier 45
+   StretchMultiplier 0
+   VelAngle 0
+   RandomAngle 1
+   Velocity 1
+   VelAffect 0.2
+   GravityMultiply 0.5
+   GravityMultiplyRND 0
+   Wind 0
+   AnimOnce 0
+   AnimFPS 30
+   LifetimeByAnim 0
+   RandomFrame 1
+   LifeTime 0.05
+   LifeTimeRND 0.1
+   Color {
+    0 0.2044 0.2265 1 1 0 0 0.1768
+   }
+   Alpha {
+    0 0.56906 1 0
+   }
+   RotationSpeed {
+    0 0 1 1
+   }
+   Size {
+    0 0.1 0.25 0.75 1 0
+   }
+  }
+  EmitorDef sparks_fire {
+   ConeAngle 360 0 30
+   BirthRate 0
+   BirthRateRND 10
+   LocalTransform 1
+   Material "{D252F1C26CBA12FA}graphics/particles/materials/fire/fire_flare_03.emat"
+   CenterX 0
+   CenterY -0.7
+   ScaleX 0.471
+   ScaleY 0.52
+   SizeMultiplier 2
+   SizeRND 1.5
+   StretchMultiplier 1
+   VelAngle 1
+   BillboardingType LockedAxis
+   Velocity 0.1
+   VelocityRND 0.1
+   RandomFrame 1
+   LifeTime 0.3
+   LifeTimeRND 0.2
+   Color {
+    0 0.7089 0.7025 0.6392 1 0.7342 0.6835 0.0253
+   }
+   Alpha {
+    0 0.68508 0.16098 0.46961 1 0
+   }
+   RotationSpeed {
+    0 1 1 1
+   }
+   Size {
+    0 0 1 1
+   }
+  }
+ }
+}
